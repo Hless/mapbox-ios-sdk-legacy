@@ -508,6 +508,7 @@ typedef enum : NSUInteger {
 
 /** The annotation object representing the user’s current location. (read-only) */
 @property (nonatomic, readonly) RMUserLocation *userLocation;
+@property (nonatomic, readonly) CLLocationManager *locationManager;
 
 /** A Boolean value indicating whether the device’s current location is visible in the map view. (read-only)
 *
